@@ -1,0 +1,41 @@
+.course-detail-container {
+    padding-top: 50px;
+}
+
+.video-col {
+    padding-right: 30px;
+}
+
+.video-col {
+    padding-right: 0;
+}
+
+.content-col {
+    padding-left: 0;
+}
+
+.course-card {
+    padding: 20px;
+}
+
+.course-img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+.course-video {
+    width: 100%; /* Set the width to full */
+}
+
+
+.course-description {
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .video-col,
+    .content-col {
+        padding-right: 0;
+        padding-left: 0;
+        padding-bottom: 30px;
+    }
+}
